@@ -1,10 +1,10 @@
 input = input()
 input = input.split()
-dicionário = {}
+book = {}
 
-for palavra in input:
+for word in input:
 
-    dicionário[palavra] = len(palavra)
+    book[word] = len(word)
 
-print(dicionário)
+print(book)
 
